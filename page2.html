@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+    }
+</style>
+<body>
+    <center>
+        <div style="border: 1px solid black; padding: 8px; margin: 8px;">
+            <h1>Escola virtual</h1>
+            <h2>Formulário pré-matrícula</h2>
+        </div>
+    </center>
+
+    <hr>
+
+    
+        <div style="border: 2px solid black; padding: 8px; margin: 8px;">
+             
+            <p>Dados pessoais:</p>
+            <center>
+            <p>Nome do aluno <input type="text"></p>
+            <p>Nascimento (dd/mm/aaaa) <input type="text" size="4"> / <input type="text" size="4"> / <input type="text" size="6"></p>
+            <p>Nome da mãe <input type="text"></p>
+            <p>Nome do pai <input type="text"></p>
+            <p>Telefone DDD <input type="text" size="4">/ tel <input type="text" size="8">/ ramal <input type="text" size="8"></p>
+            <p>Email <input type="text"></p>
+        </center>
+        <hr>
+        <h4> Informações pessoais:<h4>
+            <label for="serie">Série:</label>
+            <select name="series" id="cars">
+                <optgroup label="pré-escolar">
+                  <option value="infantil">infantil</option>
+                  <option value="fundamental 1">fundamental 1</option>
+                  <option value="fundamental 2">fundamental 2</option>
+                  <option value="ensino medio">ensino medio</option>
+                </optgroup>
+              </select>
+
+<input type="radio" name="turno" value="manhã"/> manhã  <input type="radio" name="turno" value="tarde"/> tarde <br />
+<p> </p>
+<fieldset>
+    <legend>Atividades extracurriculares:</legend>
+    <div>
+      <input type="checkbox" id="informatica" name="informatica" />
+      <label for="informatica"> informatica </label>
+    </div>
+    <div>
+      <input type="checkbox" id="musica" name="musica"  />
+      <label for="music"> Música </label>
+    </div>
+    <div>
+        <input type="checkbox" id="Ballet" name="Ballet"  />
+        <label for="Ballet"> Ballet </label>
+      </div>
+      <div>
+        <input type="checkbox" id="Pintura" name="Pintura"  />
+        <label for="Pintura"> Pintura </label>
+        <div>
+            <input type="checkbox" id="Judo" name="Judo"  />
+            <label for="Judo"> Judo </label>
+          </div>
+          <div>
+            <input type="checkbox" id="Futebol" name="Futebol"  />
+            <label for="Futebol"> Futebol </label>
+          </div>
+      </div>
+  </fieldset>
+  <p> </p>
+  <center>
+  <button name="button">Enviar formulario</button> <button name="button">limpar campos</button>
+</center>
+</div>
+</body>
+</html>
